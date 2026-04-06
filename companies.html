@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse companies and their interview problem sets">
+    <meta name="author" content="Mohammad Faiz">
+    <title>Companies - Technical Interview Repository</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Technical Interview Repository</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="companies.html" class="active">Companies</a></li>
+                <li><a href="methodology.html">Methodology</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Company Problem Sets</h1>
+            <p>Explore interview problems organized by leading technology companies</p>
+        </div>
+    </section>
+
+    <section class="companies-section">
+        <div class="container">
+            <div class="search-filter">
+                <input type="text" id="companySearch" placeholder="Search companies..." class="search-input">
+                <select id="sectorFilter" class="filter-select">
+                    <option value="all">All Sectors</option>
+                    <option value="tech">Technology</option>
+                    <option value="finance">Financial Services</option>
+                    <option value="enterprise">Enterprise Software</option>
+                    <option value="consulting">Consulting</option>
+                </select>
+            </div>
+
+            <div class="companies-grid" id="companiesGrid">
+                <!-- Companies will be loaded dynamically -->
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Technical Interview Repository</h3>
+                    <p>Maintained by Mohammad Faiz</p>
+                    <p class="footer-update">Last updated: Apr 6, 2026</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="companies.html">Companies</a></li>
+                        <li><a href="methodology.html">Methodology</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://github.com/Mohammad-Faiz-Cloud-Engineer/Technical-Interview-Problem" target="_blank">GitHub Repository</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Mohammad Faiz. All rights reserved.</p>
+                <p class="legal-notice">This repository is provided for educational and research purposes.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
