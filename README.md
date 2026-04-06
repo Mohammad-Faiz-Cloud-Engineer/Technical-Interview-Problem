@@ -46,11 +46,6 @@ The repository includes problem sets from over 30 organizations spanning multipl
 - Emerging technology: Airbnb, Databricks, Snowflake, Uber
 - Consulting and services: Accenture, Deloitte, Capgemini
 
-## Additional Resources
-
-For comprehensive interview preparation, refer to the companion repository:
-- System Design Interview Notes: https://github.com/liquidslr/system-design-notes
-
 ## Author
 
 **Mohammad Faiz**
