@@ -57,6 +57,8 @@ For comprehensive interview preparation, refer to the companion repository:
 
 This repository represents ongoing research into technical interview patterns and algorithmic problem-solving strategies.
 
+Repository: https://github.com/Mohammad-Faiz-Cloud-Engineer/Technical-Interview-Problem
+
 ## Legal Notice
 
 This repository is provided for educational and research purposes. All problem references are derived from publicly available sources. The content does not represent official interview materials from any organization and should be used as a supplementary study resource.
